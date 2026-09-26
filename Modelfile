@@ -1,0 +1,4 @@
+# Ollama's default context window is too small for multi-step tool use; raise it.
+FROM qwen2.5:14b
+PARAMETER num_ctx 16384
+PARAMETER temperature 0
